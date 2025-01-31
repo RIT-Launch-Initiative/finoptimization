@@ -95,8 +95,8 @@ for i = 1:num_elements
     
 
     % overarching check for acceptable geometry
-    % obviously this number is not correct, but i wanted to see if something would show up
-    if (FINAL_FOS > 1.5) && (3019 < apogee) && (apogee < 3300) && (1 < stb_launchrod) && (stb_launchrod < 3) && (1 < stb_burnout) && (stb_burnout < 3.5)
+    % obviously these number are not correct, will change as rocket updates in the future
+    if (FINAL_FOS > 1.3) && (3019 < apogee) && (apogee < 3300) && (1 < stb_launchrod) && (stb_launchrod < 3) && (1 < stb_burnout) && (stb_burnout < 3.5)
         FOS_accept = FINAL_FOS;
         APG_accept = apogee;
         STB_accept_L = stb_launchrod;
