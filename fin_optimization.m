@@ -110,12 +110,10 @@ end
 
 %% RESULTS ----------------------------------------------------------------
 
-results = results(~any(isnan(results), 2), :); % will have to change this for APG and STB
+results = results(~any(isnan(results), 2), :); 
 titles = {'# Iteration', 'FOS', 'Apogee', 'S-Launchrod', 'S-Burnout', 't', 'h', 'Ls', 'Lt', 'Lr'};
 
 fprintf('%-15s %-15s %-15s %-15s %-15s %-15s %-15s %-15s %-15s %-15s\n', titles{:});
-
-% Loop through each row of results and print 10 integer values per row
 for i = 1:size(results, 1)
     fprintf('%-15d %-15.4f %-15.4f %-15.4f %-15.4f %-15.4f %-15.4f %-15.4f %-15.4f %-15.4f\n', results(i, :));
 end
