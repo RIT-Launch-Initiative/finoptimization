@@ -1,5 +1,5 @@
 %% FIN OPTIMIZATION 
-% Created by Ares Bustinza-Nguyen (Updated: 1/26/25)
+% Created by Ares Bustinza-Nguyen (Created: 1/26/25)
 
 clear; close all;
 
