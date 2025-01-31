@@ -1,1 +1,3 @@
 # finoptimization
+
+First iteration
