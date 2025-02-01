@@ -1,5 +1,5 @@
 %% FIN OPTIMIZATION 
-% Created by Ares Bustinza-Nguyen (Created: 1/26/25)
+% Created by Ares Bustinza-Nguyen (Updated: 1/26/25)
 
 clear; close all;
 
@@ -95,8 +95,7 @@ for i = 1:num_elements
     
 
     % overarching check for acceptable geometry
-    % obviously these number are not correct, will change as rocket updates in the future
-    if (FINAL_FOS > 1.3) && (3019 < apogee) && (apogee < 3300) && (1 < stb_launchrod) && (stb_launchrod < 3) && (1 < stb_burnout) && (stb_burnout < 3.5)
+    if (FINAL_FOS > 1.3) && (3020 < apogee) && (apogee < 3300) && (1 < stb_launchrod) && (stb_launchrod < 3) && (1 < stb_burnout) && (stb_burnout < 3.5)
         FOS_accept = FINAL_FOS;
         APG_accept = apogee;
         STB_accept_L = stb_launchrod;
@@ -117,3 +116,9 @@ fprintf('%-15s %-15s %-15s %-15s %-15s %-15s %-15s %-15s %-15s %-15s\n', titles{
 for i = 1:size(results, 1)
     fprintf('%-15d %-15.4f %-15.4f %-15.4f %-15.4f %-15.4f %-15.4f %-15.4f %-15.4f %-15.4f\n', results(i, :));
 end
+
+% write to file
+results_file = array2table(results, 'VariableNames', titles);
+writetable(results_file, 'finopt_results.csv');
+
+%future considerations: graphs, the ability to pull from the array 
