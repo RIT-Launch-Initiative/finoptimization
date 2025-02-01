@@ -23,7 +23,6 @@ opts.setWindSpeedDeviation(0);
 opts.setTimeStep(0.05); % slower rate overnight, check against this
 
 %% RANGE FOR VARIABLES ----------------------------------------------------
-in_m = 39.370079; %
 
 % Fin Thickness [in]
 t = [0.003175, 0.0047625, 0.00635]; %0.125, 0.1875, 0.25 [in]
