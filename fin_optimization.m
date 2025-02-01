@@ -1,5 +1,5 @@
 %% FIN OPTIMIZATION 
-% Created by Ares Bustinza-Nguyen (Created: 1/26/25)
+% Created by Ares Bustinza-Nguyen (1/26/25)
 
 clear; close all;
 
@@ -11,7 +11,7 @@ if ~isfile(otis_path)
 end
 
 otis = openrocket(otis_path);
-sim = otis.sims("15MPH-SA-45DEG-36C");
+sim = otis.sims("15MPH-TEXAS-36C-(TYP)");
  
 fins = otis.component(class = "FinSet"); 
 if ~isscalar(fins)
@@ -57,15 +57,14 @@ row_index = 1;
 
 f = @FOS_finflutter; % fin flutter function
 
-% currently troubleshooting apogee, normally (i:num_elements)
-for i = 3671
+for i = i:num_elements
     % values for this combination
     on_t = t_g(i); on_Ls = Ls_g(i); on_Lt = Lt_g(i); on_Lr = Lr_g(i); on_h = h_g(i);
 
     % call functions or simulations using the current values
-    fins.setThickness(on_t); fins.setSweepAngle(on_Ls); fins.setTipChord(on_Lt); fins.setRootChord(on_Lr); fins.setHeight(on_h);
+    fins.setThickness(on_t); fins.setSweep(on_Ls); fins.setTipChord(on_Lt); fins.setRootChord(on_Lr); fins.setHeight(on_h);
     
-    sim = otis.sims("15MPH-SA-45DEG-36C"); % rerun sim
+    sim = otis.sims("15MPH-TEXAS-36C-(TYP)"); % rerun sim
     ops = sim.getOptions;
     ops.setWindSpeedDeviation(0);
     
@@ -96,6 +95,7 @@ for i = 3671
     
 
     % overarching check for acceptable geometry
+    % not final values, checking wider range 
     if (FINAL_FOS > 1.3) && (3020 < apogee) && (apogee < 3300) && (1 < stb_launchrod) && (stb_launchrod < 3) && (1 < stb_burnout) && (stb_burnout < 3.5)
         FOS_accept = FINAL_FOS;
         APG_accept = apogee;
@@ -121,5 +121,7 @@ end
 % write to file
 results_file = array2table(results, 'VariableNames', titles);
 writetable(results_file, 'finopt_results.csv');
+
+% write a way to convert the final value back into inches this sucks
 
 %future considerations: graphs, the ability to pull from the array 
