@@ -57,7 +57,7 @@ row_index = 1;
 
 f = @FOS_finflutter; % fin flutter function
 
-for i = 1:num_elements
+for i = 3671
     % values for this combination
     on_t = t_g(i); on_Ls = Ls_g(i); on_Lt = Lt_g(i); on_Lr = Lr_g(i); on_h = h_g(i);
 
@@ -74,7 +74,7 @@ for i = 1:num_elements
 
     % APOGEE --------------------------------------------------------------
     
-    apogee = data{eventfilter("APOGEE"), "Altitude"};
+    apogee = max(data.Altitude);
     disp(apogee);
 
     % FOS -----------------------------------------------------------------
