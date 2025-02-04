@@ -1,4 +1,4 @@
-%% FIN OPTIMIZATION 
+%% FIN OPTIMIZATION
 % Created by Ares Bustinza-Nguyen (1/26/25)
 
 clear; close all;
