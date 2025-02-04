@@ -24,22 +24,22 @@ opts.setTimeStep(0.05); % slower rate overnight, check against this
 
 %% RANGE FOR VARIABLES ----------------------------------------------------
 
-% Fin Thickness [in]
+% Fin Thickness
 t = [0.003175, 0.0047625, 0.00635]; %0.125, 0.1875, 0.25 [in]
 
-% Fin Sweep Length [in]
+% Fin Sweep Length
 Ls_or = fins.getSweep();
 Ls = Ls_or * (0.8:0.05:1.2); % 80% to 120%
 
-% Tip Chord Length [in]
+% Tip Chord Length
 Lt_or = fins.getTipChord();
 Lt = Lt_or * (0.8:0.05:1.2); % 80% to 120%
 
-% Root Chord Length [in]
+% Root Chord Length
 Lr_or = fins.getRootChord();
 Lr = Lr_or * (0.8:0.05:1); % varying from 80% to 100% (Lr <= 12 in for stock size)
 
-% Height [in]
+% Height
 h_or = fins.getHeight();
 h = h_or * (0.8:0.05:1.2); % 80% to 120% 
 
