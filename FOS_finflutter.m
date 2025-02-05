@@ -7,14 +7,14 @@ function [FINAL_FOS] = FOS_finflutter(data, fins)
     end
 
     t = fins.getThickness();
-    Ls = fins.getSweepAngle();
+    Ls = fins.getSweep();
     Lt = fins.getTipChord();
     Lr = fins.getRootChord();
     h = fins.getHeight();
     
-    [max_velocity, idx_max_velocity] = max(data.("Vertical velocity"));
+    [max_velocity, idx_max_velocity] = max(data.("Total velocity"));
     
-    % Simulation OpenRocket Variables (find a way to call this from OR), calling certain time points i believe
+    % Simulation OpenRocket Variables 
     % Max Velocity [m/s]
     V = max_velocity;
 
