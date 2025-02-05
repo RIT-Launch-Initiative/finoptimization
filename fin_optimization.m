@@ -61,7 +61,7 @@ row_index = 1;
 f = @FOS_finflutter; % fin flutter function
 
 
-for i = 1:num_elements
+for i = 60617
     % values for this combination
     on_t = t_g(i); on_Ls = Ls_g(i); on_Lt = Lt_g(i); on_Lr = Lr_g(i); on_h = h_g(i); on_n = n_g(i);
 
@@ -107,7 +107,7 @@ for i = 1:num_elements
     
     % ---------------------------------------------------------------------
     % overarching check for acceptable geometry
-    if (FINAL_FOS > 1.3) && (3030 < apogee) && (apogee < 3300) && (1.2 < stb_launchrod) && (stb_launchrod < 3) && (1.5 < stb_burnout) && (stb_burnout < 3.7)
+    if (FINAL_FOS > 1.45) && (3030 < apogee) && (apogee < 3300) && (1.5 < stb_launchrod) && (stb_launchrod < 3) && (1.5 < stb_burnout) && (stb_burnout < 3.6)
         FOS_accept = FINAL_FOS; APG_accept = apogee; STB_accept_L = stb_launchrod; STB_accept_B = stb_burnout; % return acceptable values
         results(row_index, :)  = [fix(i), FOS_accept, APG_accept, STB_accept_L, STB_accept_B, on_t, on_h, on_Ls, on_Lt, on_Lr];
         row_index = row_index + 1; % append to array
@@ -127,4 +127,3 @@ end
 % write to file
 results_file = array2table(results, 'VariableNames', titles);
 writetable(results_file, 'finopt_results.csv');
-
