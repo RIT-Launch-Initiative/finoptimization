@@ -61,7 +61,7 @@ row_index = 1;
 f = @FOS_finflutter; % fin flutter function
 
 
-for i = 60617
+for i = 1:num_elements
     % values for this combination
     on_t = t_g(i); on_Ls = Ls_g(i); on_Lt = Lt_g(i); on_Lr = Lr_g(i); on_h = h_g(i); on_n = n_g(i);
 
