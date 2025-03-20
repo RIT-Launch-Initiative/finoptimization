@@ -54,7 +54,7 @@ fprintf('%-15.4f %-15.4f %-15.4f %-15.4f %-15.4f %-15.4f\n', disp_startvals);
 % stopping sim when the func has a value of less than or equal to 0.1
 stop = @(~, optim_values, ~) optim_values.fval <= 0.1;
 opts = optimset(Display = "iter", OutputFcn = stop);
-opt_params = fminsearch(absolute_cost, starting_vals);
+opt_params = fminsearch(absolute_cost, starting_vals, opts);
 
 %% FINAL SIM
 
@@ -117,9 +117,9 @@ function func = costfunc_setup(rocket, sim, fins, opt_var, f, t)
 
     % define weights for each, add up to 1. values can be modified as well
     weight_apogee = 0.3;
-    weight_stb_launchrod = 0.3;
+    weight_stb_launchrod = 0.4;
     weight_stb_burnout = 0.3;
-    weight_FOS = 0.2;
+    weight_FOS = 0.1;
     
     func = @cost;
     % nested function for good practice (no global variables), no need to redefine/reinit either
