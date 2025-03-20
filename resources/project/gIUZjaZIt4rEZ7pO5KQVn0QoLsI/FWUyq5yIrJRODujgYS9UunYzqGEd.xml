@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Info>
+    <Files>
+        <File path=".gitattributes" value="3219319"/>
+        <File path=".gitignore" value="304dfd37"/>
+        <File path="LICENSE" value="cece3b93"/>
+        <File path="Lmatlib.prj" value="fe84b66d"/>
+        <File path="README.md" value="64197c42"/>
+        <File path="data/chutetime.m" value="3b03ed93"/>
+        <File path="data/elevationquery.m" value="77b078b2"/>
+        <File path="data/import_openrocket_csv.m" value="9539a06a"/>
+        <File path="data/import_rasaero_aerodata.m" value="6a2de0cf"/>
+        <File path="data/import_runcam_gcsv.m" value="d7fa363f"/>
+        <File path="data/launchsites.m" value="c4896562"/>
+        <File path="data/pressalt.m" value="7571cb1b"/>
+        <File path="data" value="-1"/>
+        <File path="plot/add_datatip.m" value="717205d"/>
+        <File path="plot/colorbartext.m" value="421c831f"/>
+        <File path="plot/convert.m" value="d6466459"/>
+        <File path="plot/figure_to_pdf.m" value="bf6b5749"/>
+        <File path="plot/figures_to_pdfs.m" value="97692151"/>
+        <File path="plot/plot_openrocket.m" value="32e3f147"/>
+        <File path="plot/print_latlon.m" value="58d6a922"/>
+        <File path="plot/set_grids.m" value="5bd9fd35"/>
+        <File path="plot/set_interpreters.m" value="7da5d324"/>
+        <File path="plot/stack_axes.m" value="7c05fe3"/>
+        <File path="plot" value="-1"/>
+        <File path="resources/project/230U5_Q2LXaS-famMAs359FH03Q/6pezQHDu9VioLIVvvBt_iKwzT6Yd.xml" value="b62b63f9"/>
+        <File path="resources/project/230U5_Q2LXaS-famMAs359FH03Q/6pezQHDu9VioLIVvvBt_iKwzT6Yp.xml" value="a9bc6721"/>
+        <File path="resources/project/230U5_Q2LXaS-famMAs359FH03Q/Q8IMTfigLg6QjdGaTpGq8e1p344d.xml" value="13231dc4"/>
+        <File path="resources/project/230U5_Q2LXaS-famMAs359FH03Q/Q8IMTfigLg6QjdGaTpGq8e1p344p.xml" value="77bf687f"/>
+        <File path="resources/project/230U5_Q2LXaS-famMAs359FH03Q/jK62O41Qba7Kr9FVfwRYIHOrcikd.xml" value="b62b63f9"/>
+        <File path="resources/project/230U5_Q2LXaS-famMAs359FH03Q/jK62O41Qba7Kr9FVfwRYIHOrcikp.xml" value="6e9f9638"/>
+        <File path="resources/project/230U5_Q2LXaS-famMAs359FH03Q/sFKbH1KkX0W19EztjvTaIyASW4Yd.xml" value="b62b63f9"/>
+        <File path="resources/project/230U5_Q2LXaS-famMAs359FH03Q/sFKbH1KkX0W19EztjvTaIyASW4Yp.xml" value="60a23a3a"/>
+        <File path="resources/project/230U5_Q2LXaS-famMAs359FH03Q/uU3Y_UKi9VVQohWyzvhE-YpLVSUd.xml" value="13231dc4"/>
+        <File path="resources/project/230U5_Q2LXaS-famMAs359FH03Q/uU3Y_UKi9VVQohWyzvhE-YpLVSUp.xml" value="a8b14c37"/>
+        <File path="resources/project/230U5_Q2LXaS-famMAs359FH03Q" value="-1"/>
+        <File path="resources/project/CCrEKqVzmDcRwroC2SpGZ1u0t00/7NOuUx0SEAmxJZdvGdqEq6DKvvEd.xml" value="13231dc4"/>
+        <File path="resources/project/CCrEKqVzmDcRwroC2SpGZ1u0t00/7NOuUx0SEAmxJZdvGdqEq6DKvvEp.xml" value="59feece8"/>
+        <File path="resources/project/CCrEKqVzmDcRwroC2SpGZ1u0t00/U-qNPg_WsGzCT-m_Meau7ncNu3Id.xml" value="13231dc4"/>
+        <File path="resources/project/CCrEKqVzmDcRwroC2SpGZ1u0t00/U-qNPg_WsGzCT-m_Meau7ncNu3Ip.xml" value="f2a83cf6"/>
+        <File path="resources/project/CCrEKqVzmDcRwroC2SpGZ1u0t00/kA8CkH6zbIh7UBpWbBi2cmdhFJwd.xml" value="b62b63f9"/>
+        <File path="resources/project/CCrEKqVzmDcRwroC2SpGZ1u0t00/kA8CkH6zbIh7UBpWbBi2cmdhFJwp.xml" value="60a23a3a"/>
+        <File path="resources/project/CCrEKqVzmDcRwroC2SpGZ1u0t00/pB5VqZ3otKRDVwYIRi5kelnXkj8d.xml" value="b62b63f9"/>
+        <File path="resources/project/CCrEKqVzmDcRwroC2SpGZ1u0t00/pB5VqZ3otKRDVwYIRi5kelnXkj8p.xml" value="4dfd0ec"/>
+        <File path="resources/project/CCrEKqVzmDcRwroC2SpGZ1u0t00/w8ssupXUzvaO_7_kvXDDOVUCNZAd.xml" value="b62b63f9"/>
+        <File path="resources/project/CCrEKqVzmDcRwroC2SpGZ1u0t00/w8ssupXUzvaO_7_kvXDDOVUCNZAp.xml" value="77220260"/>
+        <File path="resources/project/CCrEKqVzmDcRwroC2SpGZ1u0t00/wMz5yicY2OXFxOl8mQQPDFYkgXQd.xml" value="13231dc4"/>
+        <File path="resources/project/CCrEKqVzmDcRwroC2SpGZ1u0t00/wMz5yicY2OXFxOl8mQQPDFYkgXQp.xml" value="c298d7a0"/>
+        <File path="resources/project/CCrEKqVzmDcRwroC2SpGZ1u0t00" value="-1"/>
+        <File path="resources/project/EEtUlUb-dLAdf0KpMVivaUlztwA/863nkS9IR0XnOd9p3cDdOM7g5X0d.xml" value="68b4b000"/>
+        <File path="resources/project/EEtUlUb-dLAdf0KpMVivaUlztwA/863nkS9IR0XnOd9p3cDdOM7g5X0p.xml" value="e4c57a2d"/>
+        <File path="resources/project/EEtUlUb-dLAdf0KpMVivaUlztwA/_o9kw3BLnmd-N8PVMGsaqv4Rtgwd.xml" value="4514a45c"/>
+        <File path="resources/project/EEtUlUb-dLAdf0KpMVivaUlztwA/_o9kw3BLnmd-N8PVMGsaqv4Rtgwp.xml" value="5cfd86ba"/>
+        <File path="resources/project/EEtUlUb-dLAdf0KpMVivaUlztwA/r9Ocsbj_Ag1jZCbfru0cTcsEhCMd.xml" value="f3846c5"/>
+        <File path="resources/project/EEtUlUb-dLAdf0KpMVivaUlztwA/r9Ocsbj_Ag1jZCbfru0cTcsEhCMp.xml" value="5f4f7e6f"/>
+        <File path="resources/project/EEtUlUb-dLAdf0KpMVivaUlztwA" value="-1"/>
+        <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/2kj09UetkV_lru3gvSPXnY6-nM4d.xml" value="a915d71c"/>
+        <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/2kj09UetkV_lru3gvSPXnY6-nM4p.xml" value="afe046a3"/>
+        <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/KKyDJtbdIBOlaeHmIZd5VX6vqx8d.xml" value="3ab615bf"/>
+        <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/KKyDJtbdIBOlaeHmIZd5VX6vqx8p.xml" value="3a4507bf"/>
+        <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/QWNDYJD5mGW1bWYvPx9DtKnxzw4d.xml" value="4fe2e12d"/>
+        <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/QWNDYJD5mGW1bWYvPx9DtKnxzw4p.xml" value="8739a8f2"/>
+        <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/R1RggVhA72agIvELiuhWPRS8F0Id.xml" value="6c7a05fb"/>
+        <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/R1RggVhA72agIvELiuhWPRS8F0Ip.xml" value="28d99701"/>
+        <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/aEHSZBIY-yve10yGis12Zr5DLZod.xml" value="50a7a2af"/>
+        <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/aEHSZBIY-yve10yGis12Zr5DLZop.xml" value="cd91d98b"/>
+        <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/j4xwF_j8iFTVayUMfxLgMnTbencd.xml" value="46ae9f21"/>
+        <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/j4xwF_j8iFTVayUMfxLgMnTbencp.xml" value="e8544baf"/>
+        <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/r8LR4nLmg9ai3oHrW1r_-KocQzkd.xml" value="9b21088b"/>
+        <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/r8LR4nLmg9ai3oHrW1r_-KocQzkp.xml" value="45d239ae"/>
+        <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs" value="-1"/>
+        <File path="resources/project/Project.xml" value="1246079c"/>
+        <File path="resources/project/QvlsrUDX1j7arPfIxg-ecdGBNGo/3SpZwW4bWzVHDAUVzxlFhRxIZW0d.xml" value="b62b63f9"/>
+        <File path="resources/project/QvlsrUDX1j7arPfIxg-ecdGBNGo/3SpZwW4bWzVHDAUVzxlFhRxIZW0p.xml" value="c9f867b8"/>
+        <File path="resources/project/QvlsrUDX1j7arPfIxg-ecdGBNGo/Sw2RZdZFM-rN7E4z9l1AgfkPXtId.xml" value="b62b63f9"/>
+        <File path="resources/project/QvlsrUDX1j7arPfIxg-ecdGBNGo/Sw2RZdZFM-rN7E4z9l1AgfkPXtIp.xml" value="60a23a3a"/>
+        <File path="resources/project/QvlsrUDX1j7arPfIxg-ecdGBNGo/_DPflzO5AV5csb12QAhJazV7-X4d.xml" value="b62b63f9"/>
+        <File path="resources/project/QvlsrUDX1j7arPfIxg-ecdGBNGo/_DPflzO5AV5csb12QAhJazV7-X4p.xml" value="40d99080"/>
+        <File path="resources/project/QvlsrUDX1j7arPfIxg-ecdGBNGo/_WQxeZztujdQQmgionhy9OytF-Ud.xml" value="b62b63f9"/>
+        <File path="resources/project/QvlsrUDX1j7arPfIxg-ecdGBNGo/_WQxeZztujdQQmgionhy9OytF-Up.xml" value="5f926188"/>
+        <File path="resources/project/QvlsrUDX1j7arPfIxg-ecdGBNGo/_nhp9z8XbL0tE-OhvnG5TpcNgkMd.xml" value="13231dc4"/>
+        <File path="resources/project/QvlsrUDX1j7arPfIxg-ecdGBNGo/_nhp9z8XbL0tE-OhvnG5TpcNgkMp.xml" value="fd25086f"/>
+        <File path="resources/project/QvlsrUDX1j7arPfIxg-ecdGBNGo/xqbEkw25zPxOcWYfqZ9hSSdm5nkd.xml" value="b62b63f9"/>
+        <File path="resources/project/QvlsrUDX1j7arPfIxg-ecdGBNGo/xqbEkw25zPxOcWYfqZ9hSSdm5nkp.xml" value="f472d4c9"/>
+        <File path="resources/project/QvlsrUDX1j7arPfIxg-ecdGBNGo" value="-1"/>
+        <File path="resources/project/UVoyeuz1fxPB8dzcR8JjUiusmqI/AmNPA0R7RUcLgR6uFyQfY0V2GD0d.xml" value="b62b63f9"/>
+        <File path="resources/project/UVoyeuz1fxPB8dzcR8JjUiusmqI/AmNPA0R7RUcLgR6uFyQfY0V2GD0p.xml" value="60a23a3a"/>
+        <File path="resources/project/UVoyeuz1fxPB8dzcR8JjUiusmqI/Cfy5a9c5Pinp9dMYFP7J1HFKd9Ed.xml" value="13231dc4"/>
+        <File path="resources/project/UVoyeuz1fxPB8dzcR8JjUiusmqI/Cfy5a9c5Pinp9dMYFP7J1HFKd9Ep.xml" value="7d8eddc4"/>
+        <File path="resources/project/UVoyeuz1fxPB8dzcR8JjUiusmqI/EE7QjFCcNz6hMil7HW2HlSHdgfYd.xml" value="b62b63f9"/>
+        <File path="resources/project/UVoyeuz1fxPB8dzcR8JjUiusmqI/EE7QjFCcNz6hMil7HW2HlSHdgfYp.xml" value="bb8c2afa"/>
+        <File path="resources/project/UVoyeuz1fxPB8dzcR8JjUiusmqI/QvlsrUDX1j7arPfIxg-ecdGBNGod.xml" value="b62b63f9"/>
+        <File path="resources/project/UVoyeuz1fxPB8dzcR8JjUiusmqI/QvlsrUDX1j7arPfIxg-ecdGBNGop.xml" value="13387149"/>
+        <File path="resources/project/UVoyeuz1fxPB8dzcR8JjUiusmqI/di60RHMjgeC_hY1xIRubeXZ0m5wd.xml" value="b62b63f9"/>
+        <File path="resources/project/UVoyeuz1fxPB8dzcR8JjUiusmqI/di60RHMjgeC_hY1xIRubeXZ0m5wp.xml" value="b54baafa"/>
+        <File path="resources/project/UVoyeuz1fxPB8dzcR8JjUiusmqI/hdVvuAqle5OdxadkdNFLqX_gkqgd.xml" value="b62b63f9"/>
+        <File path="resources/project/UVoyeuz1fxPB8dzcR8JjUiusmqI/hdVvuAqle5OdxadkdNFLqX_gkqgp.xml" value="63eacd93"/>
+        <File path="resources/project/UVoyeuz1fxPB8dzcR8JjUiusmqI" value="-1"/>
+        <File path="resources/project/WZRuNzqc-Db7NcQAZO8Y-R8U9cc/haUKcDd7PrBH5j2sypBgBtW0rIcd.xml" value="ab32dc46"/>
+        <File path="resources/project/WZRuNzqc-Db7NcQAZO8Y-R8U9cc/haUKcDd7PrBH5j2sypBgBtW0rIcp.xml" value="340ae88f"/>
+        <File path="resources/project/WZRuNzqc-Db7NcQAZO8Y-R8U9cc" value="-1"/>
+        <File path="resources/project/fjRQtWiSIy7hIlj-Kmk87M7s21k/NjSPEMsIuLUyIpr2u1Js5bVPsOsd.xml" value="641de123"/>
+        <File path="resources/project/fjRQtWiSIy7hIlj-Kmk87M7s21k/NjSPEMsIuLUyIpr2u1Js5bVPsOsp.xml" value="9b1a20ad"/>
+        <File path="resources/project/fjRQtWiSIy7hIlj-Kmk87M7s21k" value="-1"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/230U5_Q2LXaS-famMAs359FH03Qd.xml" value="b62b63f9"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/230U5_Q2LXaS-famMAs359FH03Qp.xml" value="64cda1d7"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/CCrEKqVzmDcRwroC2SpGZ1u0t00d.xml" value="b62b63f9"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/CCrEKqVzmDcRwroC2SpGZ1u0t00p.xml" value="13387149"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/QMJD9OLFzxcTTbPOoh-ahQ4zTRUd.xml" value="b62b63f9"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/QMJD9OLFzxcTTbPOoh-ahQ4zTRUp.xml" value="86f0ee0c"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/TMK4UzWHdRLhy_w-CHt9y11Q8XAd.xml" value="b62b63f9"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/TMK4UzWHdRLhy_w-CHt9y11Q8XAp.xml" value="c3e12844"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/UVoyeuz1fxPB8dzcR8JjUiusmqId.xml" value="b62b63f9"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/UVoyeuz1fxPB8dzcR8JjUiusmqIp.xml" value="b3cba7cf"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/bTEJeU_8R4R4qC77t7aJSjzV1F0d.xml" value="b62b63f9"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/bTEJeU_8R4R4qC77t7aJSjzV1F0p.xml" value="90967350"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/qD-kr16wmwlzR-nIg1IG_vvRrWkd.xml" value="b62b63f9"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/qD-kr16wmwlzR-nIg1IG_vvRrWkp.xml" value="e98115fd"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/toBKUP5ZEISLevMQMtlfnKec8WMd.xml" value="b62b63f9"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/toBKUP5ZEISLevMQMtlfnKec8WMp.xml" value="241ce6a5"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ" value="-1"/>
+        <File path="resources/project/root/EEtUlUb-dLAdf0KpMVivaUlztwAp.xml" value="429cb5d6"/>
+        <File path="resources/project/root/GiiBklLgTxteCEmomM8RCvWT0nQd.xml" value="b81091f6"/>
+        <File path="resources/project/root/GiiBklLgTxteCEmomM8RCvWT0nQp.xml" value="c5cdc4a7"/>
+        <File path="resources/project/root/WZRuNzqc-Db7NcQAZO8Y-R8U9ccp.xml" value="550591bb"/>
+        <File path="resources/project/root/fjRQtWiSIy7hIlj-Kmk87M7s21kp.xml" value="dc68b16d"/>
+        <File path="resources/project/root/qaw0eS1zuuY1ar9TdPn1GMfrjbQp.xml" value="ee2fc10d"/>
+        <File path="resources/project/rootp.xml" value="b62b63f9"/>
+        <File path="resources/project/root" value="-1"/>
+        <File path="resources/project/toBKUP5ZEISLevMQMtlfnKec8WM/0wQ0-9KjhhP7tXpzD02A4WyKx7Ed.xml" value="13231dc4"/>
+        <File path="resources/project/toBKUP5ZEISLevMQMtlfnKec8WM/0wQ0-9KjhhP7tXpzD02A4WyKx7Ep.xml" value="6a47ca72"/>
+        <File path="resources/project/toBKUP5ZEISLevMQMtlfnKec8WM/2OgnmeEnllvmHt0bA7xbWb3Xg8Qd.xml" value="b62b63f9"/>
+        <File path="resources/project/toBKUP5ZEISLevMQMtlfnKec8WM/2OgnmeEnllvmHt0bA7xbWb3Xg8Qp.xml" value="997cf41f"/>
+        <File path="resources/project/toBKUP5ZEISLevMQMtlfnKec8WM/A-MFZO5YgrSGJne5klSWGGVd9pUd.xml" value="b62b63f9"/>
+        <File path="resources/project/toBKUP5ZEISLevMQMtlfnKec8WM/A-MFZO5YgrSGJne5klSWGGVd9pUp.xml" value="9ba23be0"/>
+        <File path="resources/project/toBKUP5ZEISLevMQMtlfnKec8WM/Qj4w6cWm9v1KNhqooxhmvQk_ozQd.xml" value="b62b63f9"/>
+        <File path="resources/project/toBKUP5ZEISLevMQMtlfnKec8WM/Qj4w6cWm9v1KNhqooxhmvQk_ozQp.xml" value="f39b9569"/>
+        <File path="resources/project/toBKUP5ZEISLevMQMtlfnKec8WM/_tq0pHRsD9HU8nK7Ttz-EXMTL90d.xml" value="b62b63f9"/>
+        <File path="resources/project/toBKUP5ZEISLevMQMtlfnKec8WM/_tq0pHRsD9HU8nK7Ttz-EXMTL90p.xml" value="c41411"/>
+        <File path="resources/project/toBKUP5ZEISLevMQMtlfnKec8WM/d8LHNWYMXG97PTLPBDS0eaemJZ0d.xml" value="b62b63f9"/>
+        <File path="resources/project/toBKUP5ZEISLevMQMtlfnKec8WM/d8LHNWYMXG97PTLPBDS0eaemJZ0p.xml" value="60a23a3a"/>
+        <File path="resources/project/toBKUP5ZEISLevMQMtlfnKec8WM/e7pR8bsxTzc_9_tKlvyNiLpEoAId.xml" value="b62b63f9"/>
+        <File path="resources/project/toBKUP5ZEISLevMQMtlfnKec8WM/e7pR8bsxTzc_9_tKlvyNiLpEoAIp.xml" value="5a3399f5"/>
+        <File path="resources/project/toBKUP5ZEISLevMQMtlfnKec8WM/lp-cEZjcnS-mN3fmxRQexgi_rQId.xml" value="b62b63f9"/>
+        <File path="resources/project/toBKUP5ZEISLevMQMtlfnKec8WM/lp-cEZjcnS-mN3fmxRQexgi_rQIp.xml" value="a89cb344"/>
+        <File path="resources/project/toBKUP5ZEISLevMQMtlfnKec8WM/nWvu9geF6YgZPwsHEWzPiMyKLDwd.xml" value="b62b63f9"/>
+        <File path="resources/project/toBKUP5ZEISLevMQMtlfnKec8WM/nWvu9geF6YgZPwsHEWzPiMyKLDwp.xml" value="9e0eb6e7"/>
+        <File path="resources/project/toBKUP5ZEISLevMQMtlfnKec8WM/teCQtDPytja7kOvgyyYBt8Szahkd.xml" value="13231dc4"/>
+        <File path="resources/project/toBKUP5ZEISLevMQMtlfnKec8WM/teCQtDPytja7kOvgyyYBt8Szahkp.xml" value="f672cbbc"/>
+        <File path="resources/project/toBKUP5ZEISLevMQMtlfnKec8WM/xcW8eJWEgexfzT0F7jBdL9fIr7Yd.xml" value="b62b63f9"/>
+        <File path="resources/project/toBKUP5ZEISLevMQMtlfnKec8WM/xcW8eJWEgexfzT0F7jBdL9fIr7Yp.xml" value="e7442730"/>
+        <File path="resources/project/toBKUP5ZEISLevMQMtlfnKec8WM" value="-1"/>
+        <File path="resources/project/uuid-8cc2a621-ed8d-4fb7-93bd-a40bcb99c929.xml" value="b62b63f9"/>
+        <File path="resources/project" value="-1"/>
+        <File path="resources" value="-1"/>
+        <File path="samples/data/OMEN.CDX1" value="ac067185"/>
+        <File path="samples/data/OMEN.ork" value="aae077f9"/>
+        <File path="samples/data/OMEN_OR_Output.csv" value="66c5be90"/>
+        <File path="samples/data/OMEN_RA_Aerodata.CSV" value="f1f0a292"/>
+        <File path="samples/data/OTIS.ork" value="1d7bdc2b"/>
+        <File path="samples/data/gfs_wind.mat" value="44785b7b"/>
+        <File path="samples/data" value="-1"/>
+        <File path="samples/plot_openrocket_timetables.m" value="c461eb7d"/>
+        <File path="samples/sim_2dof.slx" value="4d199b0d"/>
+        <File path="samples/use_openrocket_interface.m" value="37c8f503"/>
+        <File path="samples/use_simin_object.m" value="bd05e88f"/>
+        <File path="samples" value="-1"/>
+        <File path="sim/openrocket.m" value="1c58ef27"/>
+        <File path="sim/openrocket_setup.m" value="985e1a9b"/>
+        <File path="sim/struct2input.m" value="1a9844c4"/>
+        <File path="sim/table2inputs.m" value="17f9ab5c"/>
+        <File path="sim" value="-1"/>
+    </Files>
+    <MetadataNode>
+        <path value="ProjectData:type:Info">
+            <node name="Info">
+                <entry key="Name" value="lmatlib"/>
+            </node>
+        </path>
+        <path value="Root:type:Categories">
+            <path value="FileClassCategory:type:Category">
+                <node name="Info">
+                    <entry key="DataType" value="None"/>
+                    <entry key="Name" value="Classification"/>
+                    <entry key="ReadOnly" value="1"/>
+                    <entry key="SingleValued" value="1"/>
+                </node>
+                <path value="artifact:type:Label">
+                    <node name="Info">
+                        <entry key="Name" value="Artifact"/>
+                        <entry key="ReadOnly" value="READ_ONLY"/>
+                    </node>
+                </path>
+                <path value="convenience:type:Label">
+                    <node name="Info">
+                        <entry key="Name" value="Convenience"/>
+                        <entry key="ReadOnly" value="READ_ONLY"/>
+                    </node>
+                </path>
+                <path value="derived:type:Label">
+                    <node name="Info">
+                        <entry key="Name" value="Derived"/>
+                        <entry key="ReadOnly" value="READ_ONLY"/>
+                    </node>
+                </path>
+                <path value="design:type:Label">
+                    <node name="Info">
+                        <entry key="Name" value="Design"/>
+                        <entry key="ReadOnly" value="READ_ONLY"/>
+                    </node>
+                </path>
+                <path value="none:type:Label">
+                    <node name="Info">
+                        <entry key="Name" value="None"/>
+                        <entry key="ReadOnly" value="READ_ONLY"/>
+                    </node>
+                </path>
+                <path value="other:type:Label">
+                    <node name="Info">
+                        <entry key="Name" value="Other"/>
+                        <entry key="ReadOnly" value="READ_ONLY"/>
+                    </node>
+                </path>
+                <path value="test:type:Label">
+                    <node name="Info">
+                        <entry key="Name" value="Test"/>
+                        <entry key="ReadOnly" value="READ_ONLY"/>
+                    </node>
+                </path>
+            </path>
+        </path>
+        <path value="Root:type:Files">
+            <path value=".gitattributes:type:File">
+                <node name="Info"/>
+            </path>
+            <path value=".gitignore:type:File">
+                <node name="Info"/>
+            </path>
+            <path value="LICENSE:type:File">
+                <node name="Info"/>
+            </path>
+            <path value="README.md:type:File">
+                <node name="Info"/>
+            </path>
+            <path value="data:type:File">
+                <node name="Info"/>
+                <path value="1:type:DIR_SIGNIFIER">
+                    <node name="Info"/>
+                </path>
+                <path value="import_openrocket_csv.m:type:File">
+                    <node name="Info"/>
+                </path>
+                <path value="import_rasaero_aerodata.m:type:File">
+                    <node name="Info"/>
+                </path>
+                <path value="import_runcam_gcsv.m:type:File">
+                    <node name="Info"/>
+                </path>
+                <path value="launchsites.m:type:File">
+                    <node name="Info"/>
+                </path>
+                <path value="pressalt.m:type:File">
+                    <node name="Info"/>
+                </path>
+            </path>
+            <path value="plot:type:File">
+                <node name="Info"/>
+                <path value="1:type:DIR_SIGNIFIER">
+                    <node name="Info"/>
+                </path>
+                <path value="add_datatip.m:type:File">
+                    <node name="Info"/>
+                </path>
+                <path value="colorbartext.m:type:File">
+                    <node name="Info"/>
+                </path>
+                <path value="convert.m:type:File">
+                    <node name="Info"/>
+                </path>
+                <path value="figure_to_pdf.m:type:File">
+                    <node name="Info"/>
+                </path>
+                <path value="figures_to_pdfs.m:type:File">
+                    <node name="Info"/>
+                </path>
+                <path value="plot_openrocket.m:type:File">
+                    <node name="Info"/>
+                </path>
+                <path value="print_latlon.m:type:File">
+                    <node name="Info"/>
+                </path>
+                <path value="set_grids.m:type:File">
+                    <node name="Info"/>
+                </path>
+                <path value="set_interpreters.m:type:File">
+                    <node name="Info"/>
+                </path>
+                <path value="stack_axes.m:type:File">
+                    <node name="Info"/>
+                </path>
+            </path>
+            <path value="samples:type:File">
+                <node name="Info"/>
+                <path value="1:type:DIR_SIGNIFIER">
+                    <node name="Info"/>
+                </path>
+                <path value="data:type:File">
+                    <node name="Info"/>
+                    <path value="1:type:DIR_SIGNIFIER">
+                        <node name="Info"/>
+                    </path>
+                    <path value="OMEN.CDX1:type:File">
+                        <node name="Info"/>
+                    </path>
+                    <path value="OMEN.ork:type:File">
+                        <node name="Info"/>
+                    </path>
+                    <path value="OMEN_OR_Output.csv:type:File">
+                        <node name="Info"/>
+                    </path>
+                    <path value="OMEN_RA_Aerodata.CSV:type:File">
+                        <node name="Info"/>
+                    </path>
+                    <path value="OTIS.ork:type:File">
+                        <node name="Info"/>
+                    </path>
+                </path>
+                <path value="plot_openrocket_timetables.m:type:File">
+                    <node name="Info"/>
+                </path>
+                <path value="sim_2dof.slx:type:File">
+                    <node name="Info"/>
+                </path>
+                <path value="use_openrocket_interface.m:type:File">
+                    <node name="Info"/>
+                </path>
+                <path value="use_simin_object.m:type:File">
+                    <node name="Info"/>
+                </path>
+            </path>
+            <path value="sim:type:File">
+                <node name="Info"/>
+                <path value="1:type:DIR_SIGNIFIER">
+                    <node name="Info"/>
+                </path>
+                <path value="openrocket.m:type:File">
+                    <node name="Info"/>
+                </path>
+                <path value="openrocket_setup.m:type:File">
+                    <node name="Info"/>
+                </path>
+                <path value="struct2input.m:type:File">
+                    <node name="Info"/>
+                </path>
+                <path value="table2inputs.m:type:File">
+                    <node name="Info"/>
+                </path>
+            </path>
+        </path>
+        <path value="Root:type:ProjectPath">
+            <path value="2236bbbe-ccba-4ef9-8d93-c75443e47cc6:type:Reference">
+                <node name="Info">
+                    <entry key="Ref" value="data"/>
+                    <entry key="Type" value="Relative"/>
+                </node>
+            </path>
+            <path value="43af1880-266c-4229-9da0-2db85c402877:type:Reference">
+                <node name="Info">
+                    <entry key="Ref" value="plot"/>
+                    <entry key="Type" value="Relative"/>
+                </node>
+            </path>
+            <path value="8b5fedf8-8429-427e-9c9e-1a7a7c6be2f9:type:Reference">
+                <node name="Info">
+                    <entry key="Ref" value="sim"/>
+                    <entry key="Type" value="Relative"/>
+                </node>
+            </path>
+        </path>
+        <path value="Root:type:WorkingFolders">
+            <path value="ProjectStartupFolder:type:Reference">
+                <node name="Info">
+                    <entry key="Ref" value="samples"/>
+                    <entry key="Type" value="Relative"/>
+                </node>
+            </path>
+        </path>
+    </MetadataNode>
+    <Date value="March 19, 2025, 11:02:35 PM"/>
+</Info>
