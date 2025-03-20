@@ -4,6 +4,9 @@
 
 clear; close all;
 
+% next steps:
+
+
 % NOTES: (want to update so its easier to use for any OR file, will pull the sim through a dropdown, etc)
 % make sure no mass components being optimized are being overriden in the selected OR file
 % ensure that "Adjustable stability weight" has the same calculation if used in OR 
