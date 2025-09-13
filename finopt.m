@@ -93,6 +93,8 @@ fprintf('%-15s %-15s %-15s %-15s %-15s %-15s\n', titles{:});
 disp_optparams = [t, opt_params(1), opt_params(2), opt_params(3), opt_params(4), opt_params(5)];
 fprintf('%-15.4f %-15.4f %-15.4f %-15.4f %-15.4f %-15.4f\n', disp_optparams);
 
+drawvar = [opt_params(1), opt_params(2), opt_params(3), opt_params(4)];
+drawFin(drawvar);
 
 figure
 plot(cost_tracking, 'LineWidth', 2);
@@ -170,11 +172,17 @@ function func = costfunc_setup(rocket, sim, fins, opt_var, f, t)
             penalty = penalty + 100;
         end
 
-        % fos here
-
         if fins.getThickness() <= 0 || fins.getSweep() <= 0 || fins.getTipChord() <= 0 || fins.getRootChord() <= 0 || fins.getHeight() <= 0 || opt_mass.getComponentMass() < 0
             penalty = penalty + 100;
         end
+
+        if fins.getTipChord() < 0.0254
+            penalty = penalty + 100;
+        end
+
+        % if fins.getSweep() < 0.12
+        %     penalty = penalty + 1000;
+        % end
 
         % function penalizes heavily if negative and less harshly if positive.
         apg_err = abs(-weights_apg(1) * (delta_apg - 100)^2 * (exp (-weights_apg(2) * (delta_apg - 100)) - 1)); 
